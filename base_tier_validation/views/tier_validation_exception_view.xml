@@ -23,6 +23,7 @@
         <field name="model">tier.validation.exception</field>
         <field name="arch" type="xml">
             <form string="Tier Validation Exception">
+                <field name="valid_model_field_ids" invisible="1"/>
                 <sheet>
                     <div class="oe_title">
                         <label for="name" />

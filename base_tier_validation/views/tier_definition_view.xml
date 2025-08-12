@@ -32,6 +32,7 @@
         <field name="arch" type="xml">
             <form string="Tier Definition">
                 <field name="active" invisible="1"/>
+                <field name="valid_reviewer_field_ids" invisible="1"/>
                 <sheet>
                     <div class="o_form_label" name="button_box" />
                     <widget
